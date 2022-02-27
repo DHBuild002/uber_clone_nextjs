@@ -20,7 +20,7 @@ export default function Home() {
           name: user.displayName,
           photoUrl: user.photoURL,
         });
-        console.log(user.photoURL);
+        // console.log(user.photoURL);
       } else {
         setUser(null);
         router.push("/login");
